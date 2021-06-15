@@ -24,14 +24,13 @@ AND `hour`> '14-%'
 
 6)SELECT * 
 FROM `degrees` 
-WHERE level LIKE 'magistrale
-'
+WHERE level LIKE 'magistrale'
 
-7)SELECT COUNT(*)
+7)SELECT COUNT(*) AS `number_of_departments 
 FROM `departments` 
 WHERE 1
 
-8)SELECT * 
+8)SELECT COUNT(*) AS `teachers_no_phone` 
 FROM `teachers` 
 WHERE `phone`IS NULL
 
